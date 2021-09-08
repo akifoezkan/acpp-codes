@@ -7,7 +7,6 @@ int main()
 	int y = 20;
 	int a[5]{};
 	int* ptr{ a };
-
 	int& r = x;
 	int&& rr = 10;
 
@@ -33,6 +32,9 @@ int main()
 	// x ? y : z
 	// x ? 10 : y
 	// x = y
+	// y += x
+        // std::move(r)
+	// std::move(rr)
 	// x == y
 	// (r, *ptr)
 	// 'A'
