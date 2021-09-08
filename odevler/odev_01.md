@@ -1,5 +1,6 @@
-```
 #include <utility>
+#include <algorithm>
+#include <iterator>
 
 int main()
 {
@@ -33,7 +34,7 @@ int main()
 	// x ? 10 : y
 	// x = y
 	// y += x
-        // std::move(r)
+		// std::move(r)
 	// std::move(rr)
 	// x == y
 	// (r, *ptr)
@@ -42,7 +43,7 @@ int main()
 	// static_cast<double>(x)
 	// static_cast<int&>(x)
 	// static_cast<int&&>(x)
-
+	// std::max(x, y)
+	// std::max({ 2, 5, 6 });
+	// std::begin(a)
 }
-
-```
