@@ -1,0 +1,46 @@
+```
+#include <utility>
+
+int main()
+{
+	int x = 10;
+	int y = 20;
+	int a[5]{};
+	int* ptr{ a };
+
+	int& r = x;
+	int&& rr = 10;
+
+	// x
+	// &x
+	// +x
+	// x + 5
+	// ++x
+	// y--
+	// a
+	// a[3]
+	// *a
+	// r
+	// rr
+	// ptr
+	// *ptr
+	// ptr[2]
+	// &ptr
+	// nullptr
+	// void()
+	// (x, y)
+	// std::move(x)
+	// x ? y : z
+	// x ? 10 : y
+	// x = y
+	// x == y
+	// (r, *ptr)
+	// 'A'
+	// "a"
+	// static_cast<double>(x)
+	// static_cast<int&>(x)
+	// static_cast<int&&>(x)
+
+}
+
+```
