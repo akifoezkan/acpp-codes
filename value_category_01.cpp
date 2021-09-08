@@ -13,5 +13,6 @@ struct Valcat<T&&> {
 	constexpr static const char* p = "X value";
 };
 
+#include <iostream>
 
 #define  pvcat(e)       std::cout << "value category of : '" << #e << "' is " << Valcat<decltype((e))>::p << '\n'
