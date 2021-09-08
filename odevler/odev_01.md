@@ -1,3 +1,4 @@
+```
 #include <utility>
 #include <algorithm>
 #include <iterator>
@@ -47,3 +48,5 @@ int main()
 	// std::max({ 2, 5, 6 });
 	// std::begin(a)
 }
+
+```
