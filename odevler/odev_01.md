@@ -50,3 +50,5 @@ int main()
 }
 
 ```
+
+Yukarıdaki bildirimlere göre _main_ fonksiyonu içinde yazılan her bir ifadenin _(expression)_ birincil değer kategorilerini _(primary value category)_ yazınız.
