@@ -13,11 +13,11 @@ int main()
 	// nec
 	// cnec
 	// &nec
-	// nec.x
+	// nec.mx
 	// std::move(nec)
 	// std::move(cnec)
 	// nec{}
-	// nec{}.x
+	// nec{}.mx
 	// throw nec;
 	// static_cast<Nec&&>(nec)
 }
