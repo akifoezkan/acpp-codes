@@ -8,7 +8,7 @@ struct Nec {
 int main()
 {
 	Nec nec{ 10 };
-	const Nec nec{ 10 };
+	const Nec cnec{ 10 };
 
 	// nec
 	// cnec
