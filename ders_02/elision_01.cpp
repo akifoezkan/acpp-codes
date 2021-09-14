@@ -27,7 +27,7 @@ void func(Myclass x)
 
 Myclass foo()
 {
-	return Myclass{};
+	return Myclass{}; //rvo mandatory
 }
 
 int main()
@@ -35,7 +35,7 @@ int main()
 	Myclass x = Myclass{};
 	Myclass y = Myclass{ Myclass{ Myclass{} } };
 	func(Myclass{});
-	Myclass z{ foo() };
+	Myclass z{ foo() }; 
 	Myclass t{ Myclass{foo()} };
 
 }
