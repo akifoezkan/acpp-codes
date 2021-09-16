@@ -21,5 +21,5 @@ public:
 
 int main()
 {
-	auto x = { Nec{}, Nec{}, Nec{} }; //copy elision
+	auto x = { Nec{}, Nec{}, Nec{} }; //mandatory copy elision (simplified value categories)
 }
