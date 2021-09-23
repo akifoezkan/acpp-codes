@@ -1,11 +1,11 @@
 ## Aşağıdaki kodda yorum satırı olan yere bir lambda ifadesi yazmanız isteniyor. lambda ifadesinin altında, f fonksiyon nesnesi ile yapılan çağrıların her biri gönderilen argümanların değerini aralarında virgül karakteri olacak şekilde tek bir satıra yazdırmalı:
 
 #### ekran çıktısı:
-10
-10, necati ergin
-10, necati ergin, 
-10, necati ergin, 0000000011111
-10, necati ergin, 0000000011111, 3.4 7.8
+10</br>
+10, necati ergin</br>
+10, necati ergin, </br>
+10, necati ergin, 0000000011111</br>
+10, necati ergin, 0000000011111, 3.4 7.8</br>
 
 ```
 #include <string>
