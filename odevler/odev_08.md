@@ -1,4 +1,4 @@
-#### Aşağıdaki kodda yorum satırı olan yere bir lambda ifadesi yazmanız isteniyor. lambda ifadesinin altında, f fonksiyon nesnesi ile yapılan çağrıların her biri gönderilen argümanların değerini aralarında virgül karakteri olacak şekilde tek bir satıra yazdırmalı:
+#### Aşağıdaki kodda yorum satırı olan yere bir lambda ifadesi yazmanız isteniyor. Lambda ifadesinin altında, f fonksiyon nesnesi ile yapılan çağrıların her biri, gönderilen argümanların değerlerini, aralarında virgül karakteri olacak şekilde tek bir satıra yazdırmalı:
 
 #### ekran çıktısı:
 10</br>
