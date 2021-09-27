@@ -5,7 +5,7 @@ class Myclass{};
 template <typename C, typename T>
 void fill(C& con, const T& val)
 {
-	//for (auto&&& elem : con)
+	//for (auto&& elem : con)
 	for (auto& elem : con)
 		elem = val;
 }
