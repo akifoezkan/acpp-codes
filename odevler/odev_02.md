@@ -16,8 +16,8 @@ int main()
 	// nec.mx
 	// std::move(nec)
 	// std::move(cnec)
-	// nec{}
-	// nec{}.mx
+	// Nec{}
+	// Nec{}.mx
 	// throw nec;
 	// static_cast<Nec&&>(nec)
 }
