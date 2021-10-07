@@ -10,7 +10,7 @@ struct Person {
 
 	std::string get_name()&&
 	{
-		return m_name;
+		return std::move(m_name);
 	}
 
 
