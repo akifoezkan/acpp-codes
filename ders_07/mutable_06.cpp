@@ -2,5 +2,5 @@ int main()
 {
 	const int cx{ 74 };
 
-	auto f = [cx]()mutable {++x; }; //invalid (const data member)
+	auto f = [cx]()mutable {++cx; }; //invalid (const data member)
 }
