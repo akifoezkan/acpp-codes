@@ -7,7 +7,7 @@ class TypeTeller;
 
 
 template <typename T>
-void func(T&)
+void func(T&&)
 {
 	TypeTeller<T> x;
 }
