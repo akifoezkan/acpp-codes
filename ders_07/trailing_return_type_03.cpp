@@ -7,7 +7,7 @@ int& foo()
 
 int main()
 {
-	auto f = []() {return foo(); };
+	auto f = []() { return foo(); };
 
 	f() = 10; //invalid (prvalue expression)
 }

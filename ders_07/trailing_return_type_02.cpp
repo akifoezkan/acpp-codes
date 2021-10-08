@@ -5,6 +5,10 @@ int main()
 		if (x > 10)
 			return x;
 		else
-			return x * 1.5;  
-	}
+			return x * 1.5;
+	};
+
+    f(10);
+
+    return 0;
 }
