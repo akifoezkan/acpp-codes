@@ -10,7 +10,7 @@ int main()
 
 	vector<int> ivec;
 	process(ivec, 10);
-	//process(ivec, 2.5); //gecersiz
+	//process(ivec, 'A'); //gecersiz
 	vector<string> svec;
 	string str{ "ali" };
 	process(svec, str);
