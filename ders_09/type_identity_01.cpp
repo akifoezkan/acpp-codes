@@ -2,7 +2,7 @@
 #include <string>
 
 template <typename T>
-void process(std::vector<T>& vec, T val);
+void process(std::vector<T>& vec, T val) {};
 
 int main()
 {
@@ -10,10 +10,11 @@ int main()
 
 	vector<int> ivec;
 	process(ivec, 10);
-	//process(ivec, 'A'); //gecersiz
+	// process(ivec, 'A'); //gecersiz, types are different
+
 	vector<string> svec;
 	string str{ "ali" };
 	process(svec, str);
-	process(svec, "can"); //gecersiz
+	// process(svec, "can"); //gecersiz, T = string, "can" = cstring
 }
 
