@@ -1,4 +1,4 @@
-/C++17 - Nicolai Jossutis kitabındaki ornekten uyarlanmistir
+//C++17 - Nicolai Jossutis kitabındaki ornekten uyarlanmistir
 
 #include <optional>
 #include <string_view>
@@ -6,8 +6,8 @@
 #include <iostream>
 
 // string'i (mumkunse) int turune donustur
-//from_chars C++17
-//std::optional C++17
+// - from_chars C++17
+// - std::optional C++17
 
 std::optional<int> asInt(std::string_view sv)
 {

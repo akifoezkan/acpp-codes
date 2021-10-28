@@ -18,12 +18,14 @@ int main()
 	std::cout << "bir tamsayi girin: ";
 	std::cin >> ival;
 
-	//auto &s1 = getstr(ival);  //gecersiz
-	const auto& s2 = getstr(ival); //life extension
-	auto&& s3 = getstr(ival); //life extension
-	const char* p1 = getstr(ival).c_str();  //ub
-	auto p2 = getstr(ival).c_str(); //ub
-	std::string_view s = getstr(ival); //ub
+	// auto &s1 = getstr(ival);     // gecersiz
+	const auto& s2 = getstr(ival);  // life extension
+	auto&& s3 = getstr(ival);       // life extension
+
+	const char* p1 = getstr(ival).c_str();  // ub
+	auto p2 = getstr(ival).c_str();         // ub
+
+	std::string_view s = getstr(ival);      // ub
 
 	std::cout << "(" << s << ")\n";
 }

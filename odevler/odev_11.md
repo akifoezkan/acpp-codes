@@ -11,8 +11,8 @@ int main()
 
 	std::string_view sv{ s, std::size(s)};
 
-	std::cout << s << "\n"; //1
-	std::cout << sv << "\n"; //2
-	std::cout << sv.data() << "\n"; //3
+	std::cout << s << "\n";         // 1
+	std::cout << sv << "\n";        // 2
+	std::cout << sv.data() << "\n"; // 3
 }
 ```
