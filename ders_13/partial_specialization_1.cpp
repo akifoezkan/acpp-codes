@@ -13,7 +13,7 @@ template <typename T>
 struct Myclass<T*> {
 	Myclass()
 	{
-		std::cout << "Myclass<T* specialization>\n";
+		std::cout << "Myclass<T*> specialization>\n";
 	}
 };
 
