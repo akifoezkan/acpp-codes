@@ -7,20 +7,20 @@ void func(T)
 }
 
 template<>
-void func(int*)
+void func(int *)
 {
 	std::cout << "2";
 }
 
 template<typename T>
-void func(T*)
+void func(T *)
 {
 	std::cout << "3";
 }
 
 int main()
 {
-	int* p = nullptr;
+	int *p = nullptr;
 
 	func(p);
 }
