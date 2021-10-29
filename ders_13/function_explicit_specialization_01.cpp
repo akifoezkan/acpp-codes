@@ -1,13 +1,13 @@
 #include <iostream>
 
 template<typename T>
-void func(const T&)
+void func(const T &)
 {
 	std::cout << "primary template\n";
 }
 
 template<>
-void func(const int&)
+void func(const int &)
 {
 	std::cout << "explicit specialization\n";
 }
@@ -19,8 +19,8 @@ void func(double)
 
 int main()
 {
-	func(10);
-	func(0.42);
-	func('A');
-	func("10");
+	//func(10);
+	//func(0.42);
+	//func('A');
+	//func("10");
 }
