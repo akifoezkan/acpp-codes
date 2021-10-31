@@ -10,9 +10,12 @@
 
 std::string func(std::string_view sv)
 {
-	//return sv; //gecersiz
+#ifdef SHOW_SYNTAX_ERROR
+	return sv; //gecersiz
+#else
 	//return std::string{ sv }; //gecerli
 	return sv.data(); //gecerli
+#endif
 }
 
 void foo(std::string) {};

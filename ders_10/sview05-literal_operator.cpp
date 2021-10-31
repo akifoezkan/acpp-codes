@@ -8,8 +8,8 @@ int main()
 	std::string_view sv1 = "abc\0\0def";
 	std::string_view sv2 = "abc\0\0def"sv;
 
-	std::cout << "sv1: " << sv1.size() << " (" << sv1 << ")\n";
-	std::cout << "sv2: " << sv2.size() << " (" << sv2 << ")\n";
+	std::cout << "sv1: " << sv1.size() << " (" << sv1 << ")\n"; // 3, (abc)
+	std::cout << "sv2: " << sv2.size() << " (" << sv2 << ")\n"; // 8, (abcdef)
 }
 
 /*
