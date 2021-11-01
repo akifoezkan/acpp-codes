@@ -1,6 +1,6 @@
 ### Aşağıdaki çağrılardan her birinde derleyicinin yaptığı çıkarım sonucu T türü için template argümanı olarak belirlenen türü yazınız. Sentaks hatası olan durumları ayrıca belirtiniz:
 
-```
+```cpp
 template <typename T>
 void foo(T);
 
