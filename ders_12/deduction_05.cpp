@@ -1,5 +1,5 @@
 template <typename T, typename U>
-void func(T, U);
+void func(T, U) {};
 
 int main()
 {

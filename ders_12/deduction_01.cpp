@@ -1,6 +1,6 @@
+// T type icin constluk ve referanslik korunmaz
 template <typename T>
 void func(T x);
-
 
 int main()
 {
@@ -9,8 +9,8 @@ int main()
 	int& r = y;
 	const int& cr = cx;
 
-	func(12); //T is int
-	func(y); //T is int
-	func(r); //T is int
-	func(cr); //T is int
+	func(12);   // T is int
+	func(y);    // T is int
+	func(r);    // T is int
+	func(cr);   // T is int
 }

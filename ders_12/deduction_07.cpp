@@ -1,3 +1,4 @@
+// T type icin const luk korunur
 template <typename T>
 void func(T& x);
 
