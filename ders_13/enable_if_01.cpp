@@ -1,3 +1,8 @@
+// enable_if_t<true, T>  is T
+// enable_if_t<false, T>  is not defined, thus syntax error
+// SFINAE: Substitution failure is not an error
+// -> when enable_if does not define a type this function is taken from the overload set, but the whole code still compiles.
+
 #include <type_traits>
 
 template <typename T>

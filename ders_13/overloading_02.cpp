@@ -1,8 +1,7 @@
 // Aşağıdaki kodda x.cpp ve y.cpp ayrı kod dosyaları.
 // ODR ihlal edilmiyor ve tanımsız davranış yok
 
-//x.cpp
-
+// x.cpp
 template <typename T, typename U>
 void func(T x, U y)
 {
@@ -14,8 +13,7 @@ void f()
 	func(12, 4.5);
 }
 
-//y.cpp
-
+// y.cpp
 template <typename T, typename U>
 void func(U x, T y)
 {

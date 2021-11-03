@@ -29,5 +29,8 @@ int main()
 {
 	int *p = nullptr;
 
-	func(p);
+	func(p);    // 4
 }
+
+
+// 1) overload resolution a 1 ve 3 katilir, 3 secilir.

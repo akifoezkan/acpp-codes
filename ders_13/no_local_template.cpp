@@ -1,7 +1,6 @@
 #include <iostream>
 //yerel düzeyde şablon oluşturulamaz
 
-
 //gecersiz
 void func()
 {

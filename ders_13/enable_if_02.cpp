@@ -6,7 +6,7 @@
 template <typename T>
 std::enable_if_t<std::is_integral_v<T>, T> foo(T x)
 {
-	std::cout << "for integer types\n";
+	std::cout << "for integral types\n";
 	//...
 	return x;
 }

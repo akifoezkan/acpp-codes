@@ -1,10 +1,9 @@
 #include <iostream>
 
-
-template<typename T> 
+template<typename T>
 constexpr std::size_t SZ = sizeof(T);
 
-template<> 
+template<>
 constexpr std::size_t SZ<void> = 0;
 
 int main()

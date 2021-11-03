@@ -1,3 +1,5 @@
+// partial specialization kendi template function indan daha fazla parametre alabilir
+
 #include <iostream>
 
 template <typename T>

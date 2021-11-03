@@ -18,8 +18,8 @@ struct Myclass<T[]> {
 
 int main()
 {
-	Myclass<int[5]> m1;
-	Myclass<double[10]> m2;
+	Myclass<int[5]> m1;         // primary
+	Myclass<double[10]> m2;     // primary
 	Myclass<int []> m3;
 	Myclass<double[]> m4;
 }

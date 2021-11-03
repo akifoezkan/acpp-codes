@@ -7,7 +7,6 @@ void func(T x)
 	std::cout << "func(T x)\n";
 }
 
-
 //#2
 template <typename T>
 void func(T *x)
@@ -27,8 +26,8 @@ int main()
 	int x{};
 	int* ptr{ &x };
 
-	func(10);  
-	func(&x);  
-	func(ptr);
-	func(&ptr);
+	func(10);   // 1
+	func(&x);   // 2
+	func(ptr);  // 2
+	func(&ptr); // 3
 }

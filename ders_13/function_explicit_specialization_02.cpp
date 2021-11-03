@@ -22,5 +22,10 @@ int main()
 {
 	int *p = nullptr;
 
-	func(p);
+	func(p);    // 3
 }
+
+// overload resolution a 1 ve 3 katilir, 3 secilir.
+// Note that
+//  - 2 does not participate to overload resolution set
+//  - 2 is explicit specialization of 1

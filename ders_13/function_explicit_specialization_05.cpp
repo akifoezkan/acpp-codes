@@ -1,6 +1,5 @@
 #include <cstdint>
 
-
 template <int n>
 constexpr int64_t factorial()
 {

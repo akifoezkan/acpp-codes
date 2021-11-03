@@ -19,8 +19,8 @@ void func(double)
 
 int main()
 {
-	//func(10);
-	//func(0.42);
-	//func('A');
-	//func("10");
+	func(10);
+	func(0.42);
+	func('A');
+	func("10");
 }
