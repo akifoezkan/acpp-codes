@@ -7,7 +7,7 @@ Aşağıdaki kodda tanımsız davranış _(undefined behavior)_ var mı?
 class Book {
 public:
 	Book(std::string title, std::string author) : 
-		m_title{ std::move(title) }, m_author{ std::move(author) } {}
+	m_title{ std::move(title) }, m_author{ std::move(author) } {}
 	const std::string &get_title()const { return m_title; }
 	const std::string &get_author()const { return m_author; }
 private:
