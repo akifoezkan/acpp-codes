@@ -1,3 +1,6 @@
+#### C++17 standartlarına göre aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
+
+```
 #include <iostream>
 
 template <class T>
@@ -17,3 +20,4 @@ int main()
 	int ival = 0;
 	func(ival);
 }
+```
