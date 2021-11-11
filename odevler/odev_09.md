@@ -1,4 +1,4 @@
-### Aşağıdaki kodda tanımsız davranıoş var mı?
+### Aşağıdaki kodda tanımsız davranış var mı?
 
 ```
 #include <string_view>
