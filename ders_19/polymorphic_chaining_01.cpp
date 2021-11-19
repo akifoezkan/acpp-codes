@@ -39,6 +39,6 @@ public:
 int main()
 {
 	ConsolePrinter().print("Kaveh Nematipour").set_color(661).print_line(9763.354);  //invalid
-                                            ----------------
+                                                   ----------------
 }
 
