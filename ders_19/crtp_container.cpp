@@ -14,7 +14,7 @@ public:
 		return *std::prev(derived().end());
 	}
 
-	decltype(auto) size()const
+	decltype(auto) size() const
 	{
 		return (size_t)(std::distance(derived().begin(), derived().end()));
 	}
@@ -25,6 +25,7 @@ public:
 	}
 
 private:
+    // Const overloading
 	Der& derived() { return static_cast<Der&>(*this); }
 	const Der& derived()const { return static_cast<const Der&>(*this); }
 };

@@ -17,6 +17,7 @@ public:
 		m_os << tval << '\n';
 		return *this;
 	}
+
 private:
 	std::ostream& m_os;
 };
@@ -37,6 +38,8 @@ public:
 int main()
 {
 	ConsolePrinter().print("Kaveh Nematipour").set_color(661).print_line(9763.354);  //invalid
-                                                   ----------------
+            //                                     ----------------
+            // ConsolePrinter().print("Kaveh Nematipour") returns Printer&
+            // The class Printer doesn't have a member .set_color()
 }
 

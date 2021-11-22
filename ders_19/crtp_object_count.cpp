@@ -9,10 +9,10 @@ public:
 		++ms_count_alive;
 	}
 
-	Counter(const Counter &) 
-	{ 
-		++ms_count_created; 
-		++ms_count_alive; 
+	Counter(const Counter &)
+	{
+		++ms_count_created;
+		++ms_count_alive;
 	}
 
 	~Counter()
@@ -22,6 +22,7 @@ public:
 
 	static std::size_t how_many_created() { return ms_count_created; }
 	static std::size_t how_many_alive() { return ms_count_alive; }
+
 private:
 	static std::size_t ms_count_created;
 	static std::size_t ms_count_alive;
